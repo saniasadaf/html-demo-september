@@ -21,4 +21,49 @@ color: seagreen;
     color: crimson;
     font-size: 40px;
 }
+.article {
+    color: blue;
+    font-size: 40px;
+}
+.heading {
+    background-color: cornflowerblue;
+    color: darkgreen;
+}
+.heading:hover {
+    background-color: darkturquoise;
+    color: darkmagenta;
+}
+input:focus{
+    background-color: lawngreen;
+    color: maroon;
+}
+
+p::first-letter{
+    font-weight: bolder;
+    color: blue;
+}
+p::selection{
+    color: darkgoldenrod;
+}
+.article{
+    font-size: 20px;
+    background-color: darkorange;
+}
+.articletwo {
+    font-size: 20px;
+    background-color: darksalmon;
+}
+.box{
+    width: 100px;
+    height: 100px;
+   /* / background-color: rgba(72, 66, 245); */
+   background-color: Linear-gradient(blue, yellow):
+    border: 10px solid brown;
+    /*  border-coloe:blue:
+    border-width: 3px;
+    border-style: ridge; */
+}
+.box{
+    padding: 50px 10px 10px;
+}
 
